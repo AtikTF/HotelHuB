@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "Menu";
+    src: url(./Inter-Regular.otf);
+}
+
+@font-face {
+    font-family: "Titulo 1";
+    src: url(./Inter-Bold.otf);
+}
+
+@font-face {
+    font-family: "Titulo 2";
+    src: url(./Inter-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "Romanesco";
+    src: url(./Romanesco-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecera{
+    align-items: center;
+    background-color: #A3A656;
+    display: flex;
+    justify-content: space-between;
+    padding: 11.5px 0px;
+}
+
+.cabecera p:hover{
+    color: #ffff00;
+}
+
+.cabecera nav{
+    margin-left: 75px;
+}
+
+.cabecera nav ul{
+    display:flex;
+    list-style-type: none;
+    gap: 20px;
+    
+}
+
+.cabecera nav ul li{
+    font-family: "Menu";
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.cabecera nav ul li:hover{
+    color: #ffff00;
+}
+
+.micuenta {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.micuenta div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.micuenta p{
+    font-family: "Menu";
+    font-size: 14px;
+}
+
+.flag{
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.banner{
+    height:595.094px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.spa{
+    font-family: "Romanesco";
+    font-size: 96px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.spaFrase{
+    font-family: "Titulo 2";
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 550px;
+}
+
+.formulario{
+    background-color: #F2F6F6;
+}
+
+.formulario form{
+    display: flex;
+    justify-content: center;
+    font-family: "Menu";
+    font-size: 16px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.formulario form div{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.cajat{
+    border-radius: 10px;
+    border-style: none;
+    height:60px;
+    width: 250px;
+}
+
+.cajap{
+    border-radius: 10px;
+    border-style: none;
+    height:60px;
+}
+
+.reserva{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+.masaje{
+        width: 350px;
+}
+
+.tipoMasaje{
+    background-color: #A3A656;
+    border-radius: 15px 15px 0px 0px;
+    color: #ffffff;
+    font-family: "Titulo 2";
+    font-size: 32px;
+    padding: 20px;    
+    text-align: center;
+}
+
+.parteBaja{
+    display: flex;
+    justify-content: space-between;
+}
+
+.descripcion{
+    font-family: "Menu";
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.precio{
+    font-family: "Titulo 2";
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+.botonReservar{
+    background-color: #A3A656;
+    border-style: none;
+    border-radius: 35px;
+    color: #ffffff;
+    font-family: "Menu";
+    padding: 10px 40px;
+}
+
+.botonReservar:hover{
+    background-color: #384001;
+}
+
+.tituloBeneficios{
+    font-family: "Titulo 2";
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.socio{
+    background-color: #F2F6F6;
+    padding-bottom: 151px;
+}
+
+.panelOpciones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloOpciones{
+    font-family: "Titulo 2";
+    font-size: 32px;
+    text-align: center;
+}
+
+.condiciones{
+    background-color: #A3A656;
+    border-style: none;
+    border-radius: 35px;
+    color: #ffffff;
+    font-family: "Menu";
+    font-size: 16px;
+    padding: 15px 60px;
+    margin: 30px 0px;
+}
+
+.condiciones:hover{
+    background-color: #384001;
+}
+
+.lista{
+    font-family: "Menu";
+    font-size: 16px;
+    text-align:start;
+    padding-left: 70px;
+}
+
+.contenedorImg{
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 10px #384001 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 255px;
+    width: 255px;
+}
+
+input[type="text"]::placeholder{
+    font-family: "Menu";
+    font-size:16px;
+    color: #9E9A9A;
+}
+
+.piePagina{
+    align-items: center;
+    background-color: #384001;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.piePagina ul{
+    display: flex;
+    list-style-type: none;
+    gap: 45px;
+}
+
+.piePagina ul li{
+    color: #9E9A9A;
+    font-family: "Menu";
+    font-size: 16px;
+}
+
+.piePagina nav ul li:hover{
+    color: #ffff00;
+}
+
+.siguenos{
+    align-items: center;
+    display: flex;
+    color: #9E9A9A;
+    font-family: "Menu";
+    font-size: 16p;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.siguenosEn:hover{
+    color: #ffff00;
+}
